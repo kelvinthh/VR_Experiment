@@ -24,7 +24,7 @@ public class ShowControllers : MonoBehaviour
             }else
             {
                 hand.HideController();
-
+                hand.SetSkeletonRangeOfMotion(Valve.VR.EVRSkeletalMotionRange.WithoutController);
             }
         }
 
